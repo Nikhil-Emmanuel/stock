@@ -63,5 +63,5 @@ To run the Flask application, use the following command:
 python app.py
 ```
 
-##Open the Application
+## Open the Application
 Once the command is executed , click on `127.0.0.1:5000` to open the application in your browser.
