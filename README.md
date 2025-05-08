@@ -64,4 +64,4 @@ python app.py
 ```
 
 ## Open the Application
-Once the command is executed , click on `127.0.0.1:5000` to open the application in your browser.
+Once the command is executed , click on `http://127.0.0.1:5000` to open the application in your browser.
