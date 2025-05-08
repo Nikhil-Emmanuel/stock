@@ -1,14 +1,14 @@
-# 📈Stock Price Predictor using Machine Learning Model
+# 💲Stock Price Predictor using Machine Learning Model💲
 
 This project predicts the closing price of a stock using historical data from Yahoo Finance primarily. It implements various machine learning models, such as Linear Regression, Random Forest, XGBoost, and LightGBM, to forecast the next day's closing price. The best-performing model is saved and used for real-time predictions through a Flask web application. Data using NASDAQ and other sources require an API Key and hence are under development currently.
 
-## Features
+## Features 
 
 - Predict stock closing price for the next day using historical stock data.
 - Enter the stock ticker symbol and source.
 - View predicted price on a clean and interactive web interface.
 - The model uses advanced machine learning algorithms such as:
-  - Linear Regression
+  - Linear Regression 
   - Random Forest Regressor
   - Gradient Boosting Regressor
   - XGBoost Regressor
