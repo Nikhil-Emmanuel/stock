@@ -1,11 +1,11 @@
-# Stock Price Prediction with Machine Learning
+# 📈Stock Price Predictor using Machine Learning Model
 
-This project predicts the closing price of a stock using historical data from Yahoo Finance. It implements various machine learning models, such as Linear Regression, Random Forest, XGBoost, and LightGBM, to forecast the next day's closing price. The best-performing model is saved and used for real-time predictions through a Flask web application.
+This project predicts the closing price of a stock using historical data from Yahoo Finance primarily. It implements various machine learning models, such as Linear Regression, Random Forest, XGBoost, and LightGBM, to forecast the next day's closing price. The best-performing model is saved and used for real-time predictions through a Flask web application. Data using NASDAQ and other sources require an API Key and hence are under development currently.
 
 ## Features
 
 - Predict stock closing price for the next day using historical stock data.
-- Select the stock ticker symbol and source (currently only Yahoo Finance is supported).
+- Enter the stock ticker symbol and source.
 - View predicted price on a clean and interactive web interface.
 - The model uses advanced machine learning algorithms such as:
   - Linear Regression
@@ -33,7 +33,7 @@ Follow these steps to get your local development environment set up:
 1. Clone the repository:
     ```bash
     git clone https://github.com/Nikhil-Emmanuel/stock.git
-    cd stock-price-prediction
+    cd stock
     ```
 
 2. Create and activate a virtual environment:
