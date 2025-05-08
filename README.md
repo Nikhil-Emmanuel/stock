@@ -26,6 +26,11 @@ This project predicts the closing price of a stock using historical data from Ya
 - **Pandas**: For data manipulation and cleaning.
 - **NumPy**: For numerical operations.
 
+## Working
+- **Input**: The user gives the ticker symbol of the stock and the source of data from which stock close prices are obtained.
+- **Processing**: The Flask backend invokes the model and scaler files [saved as `.pkl`] and passes the user's inputs as arguments.
+- **Output**: Once the model gives the output, this output is displayed on the UI via inner text of HTML.
+
 ## Installation
 
 Follow these steps to get your local development environment set up:
