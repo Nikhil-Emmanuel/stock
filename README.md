@@ -65,3 +65,9 @@ python app.py
 
 ## Open the Application
 Once the command is executed , click on `http://127.0.0.1:5000` to open the application in your browser.
+
+## Future Improvements
+Currently the model is trained on `TSLA` stock closing prices and displays the close price for the next day only. 
+- The model is yet to be trained with multi-stock data to make the predictions more robust.
+- Periodic model training with current data to increase accuracy in predictions.
+- Futuristic predictions to predict the stock close price on selected date is underway.
