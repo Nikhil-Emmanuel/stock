@@ -12,7 +12,7 @@ from sklearn.svm import SVR
 from sklearn.metrics import mean_squared_error
 
 # for Model
-ticker = "TSLA"  # Example ticker, replace with your desired ticker
+ticker = "TSLA"  # Example 
 n_lags = 5
 model_output_path = "best_model.pkl"
 scaler_output_path = "scaler.pkl"
